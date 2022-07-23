@@ -1,5 +1,5 @@
-#include <fmt/core.h>
+#include "lib.hpp"
 
-int main() {
-  fmt::print("hello world\n");
-}
+#include <iostream>
+
+int main() { std::cout << lib::foo("hello") << '\n'; }

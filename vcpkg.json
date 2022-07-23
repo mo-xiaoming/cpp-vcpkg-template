@@ -1,10 +1,8 @@
 {
   "name": "cpp-vcpkg-template",
   "version-semver": "0.1.0",
-  "description": "template for a cpp app with vcpkg support",
+  "description": "cpp vcpkg template",
   "dependencies": [
-    "boost",
-    "doctest",
-    "spdlog"
+    "gtest"
   ]
 }
